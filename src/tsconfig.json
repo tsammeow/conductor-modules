@@ -34,7 +34,7 @@
     "noImplicitAny": false,
     "verbatimModuleSyntax": true,
     "paths": {
-      "js-slang/context": ["./typings/js-slang/context.d.ts"]
+      "js-slang/context": ["./legacy/typings/js-slang/context.d.ts"]
     },
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
