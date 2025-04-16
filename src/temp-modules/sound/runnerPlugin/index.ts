@@ -27,7 +27,7 @@
 import type { IChannel, IConduit } from 'conductor/dist/conduit';
 import type { Remote } from 'conductor/dist/conduit/rpc/types/Remote';
 import type { IPlugin } from 'conductor/dist/conduit/types/IPlugin';
-import { makeRpc } from 'conductor/dist/conduit/rpc/makeRpc';
+import { makeRpc } from 'conductor/dist/conduit/rpc';
 import {
   pair,
   head,

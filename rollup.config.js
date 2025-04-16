@@ -4,10 +4,17 @@ import commonjs from "@rollup/plugin-commonjs";
 import nodePolyfills from "rollup-plugin-polyfill-node";
 
 export default [{
-    plugins: [nodeResolve(), nodePolyfills(), commonjs(), typescript()],
-    input: ["src/temp-modules/sound/runnerPlugin/index.ts","src/temp-modules/sound/hostPlugins/web/index.ts"],
+    plugins: [nodePolyfills(), commonjs(), nodeResolve(), typescript()],
+    input: "src/temp-modules/sound/runnerPlugin/index.ts",
     output: {
-        dir: "dist",
+        file: "dist/index.js",
+        format: "es",
+    }
+},{
+    plugins: [nodePolyfills(), commonjs(), nodeResolve(), typescript()],
+    input: "src/temp-modules/sound/hostPlugins/web/index.ts",
+    output: {
+        file: "dist/index2.js",
         format: "es",
     }
 }];

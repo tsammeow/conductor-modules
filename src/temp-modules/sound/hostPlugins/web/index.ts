@@ -1,6 +1,6 @@
 import type { IChannel, IConduit } from "conductor/dist/conduit";
 import { SoundModuleString } from "../../strings";
-import { makeRpc } from "conductor/dist/conduit/rpc/makeRpc";
+import { makeRpc } from "conductor/dist/conduit/rpc";
 import type { ISoundHostRpc } from "../../types/ISoundHostRpc";
 
 class SoundWebHostPlugin {
