@@ -1,4 +1,4 @@
-import context from '../../typings/js-slang/context';
+import context from '../../../legacy/typings/js-slang/context';
 import {
   pair,
   head,

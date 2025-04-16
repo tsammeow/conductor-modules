@@ -1,6 +1,7 @@
-import type { SoundModuleState } from '../../bundles/sound/types';
-import { getModuleState, type DebuggerContext, type ModuleTab } from '../../typings/type_helpers';
-import MultiItemDisplay from '../common/MultItemDisplay';
+import type { SoundModuleState } from '../../runnerPlugin/types';
+import { getModuleState, type DebuggerContext, type ModuleTab } from '../../../../legacy/typings/type_helpers';
+import MultiItemDisplay from '../../../../legacy/tabs/common/MultItemDisplay';
+import React from 'react';
 
 /**
  * Tab for Source Academy Sounds Module
