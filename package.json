@@ -53,6 +53,9 @@
   },
   "devDependencies": {
     "@commander-js/extra-typings": "^12.0.0",
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
     "@stylistic/eslint-plugin": "^4.2.0",
     "@types/estree": "^1.0.0",
     "@types/jest": "^27.4.1",
@@ -84,6 +87,8 @@
     "jest-mock": "^29.7.0",
     "postinstall-postinstall": "^2.1.0",
     "re-resizable": "^6.9.11",
+    "rollup": "^4.40.0",
+    "rollup-plugin-polyfill-node": "^0.13.0",
     "sass": "^1.85.0",
     "ts-jest": "^29.1.2",
     "typedoc": "^0.25.12",
